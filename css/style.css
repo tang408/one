@@ -15,19 +15,16 @@ body {
     flex-direction: column;
 }
 
-/* header {
-    height: 115px;
-} */
 header {
     height: 57px;
 }
 
+.container-fluid {
+    padding: 0 10vw !important;
+}
+
 main {
     flex: auto;
-    /* background-color: #ccc; */
-    /* background:
-        linear-gradient(45deg, transparent 49.5%, deeppink 49.5%, deeppink 50.5%, transparent 50.5%); */
-    /* background: -webkit-linear-gradient(left top, blue 50%, white 50%); */
 }
 
 footer {
@@ -52,17 +49,14 @@ footer {
 }
 
 .navbar-brand img {
-    /* width: 107px; */
-    height: 50px;
-    /* top: 14px; */
-    /* left: 118px; */
-    opacity: 75%;
+    height: 80px;
 }
 
 .navbar-collapse .nav-item a {
     font-style: normal;
     font-weight: 700;
     line-height: 43px;
+    font-size: 24px;
 }
 
 .font-Home {
@@ -86,7 +80,6 @@ footer {
 .font-contact {
     color: #FFBB00;
 }
-
 
 .font-Home:focus,
 .font-Home:hover {
@@ -114,9 +107,6 @@ footer {
     color: #cba12f !important;
 
 }
-
-
-
 
 .img-banner {
     display: inline-block;
@@ -160,7 +150,6 @@ footer {
     background: #FFFFFF;
     border: 5px solid #0B0B0B;
     border-radius: 30px;
-
     display: grid;
     text-align: center;
     justify-content: center;
@@ -170,19 +159,16 @@ footer {
 
 .fistNews-red {
     width: 377px;
-    /* height: 194px; */
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
-
     color: #F21616;
     font-size: 20px;
 }
 
 .fistNews-gray {
     width: 377px;
-    /* height: 194px; */
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -207,12 +193,6 @@ footer {
 .guide-group {
     margin-top: 130px;
 }
-
-/* .ImgOne {
-    width: 229px;
-    height: 154px;
-} */
-
 
 .ImgOne,
 .ImgTwo {
@@ -262,7 +242,6 @@ footer {
     text-align: center;
 
     color: #010101;
-    /* display: flex; */
 }
 
 .content-red {
@@ -277,7 +256,6 @@ footer {
     text-align: center;
 
     color: #E22222;
-    /* display: flex; */
 }
 
 
@@ -290,7 +268,6 @@ footer {
     line-height: 32px;
     text-align: center;
     color: #989898;
-    /* display: flex; */
 }
 
 
@@ -303,6 +280,7 @@ footer {
 .group {
     display: flex;
     justify-content: space-around;
+    padding: 0 8vw;
 }
 
 .text-shape {
@@ -342,9 +320,9 @@ footer {
 .content label {
     height: 32px;
     color: #FFFFFF;
-
     font-size: 24px;
     line-height: 32px;
+    text-shadow: 1px 1px 5px #000000;
 }
 
 .name input,
@@ -355,6 +333,8 @@ footer {
     background: rgba(255, 255, 255, 0.63);
     border-radius: 10px;
     border: none;
+
+    box-shadow: 1px 0px 5px #494949;
 }
 
 .content textarea {
@@ -364,5 +344,5 @@ footer {
     border-radius: 10px;
     border: none;
     resize: none;
-
+    box-shadow: 1px 0px 5px #494949;
 }
