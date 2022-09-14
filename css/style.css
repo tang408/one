@@ -46,6 +46,10 @@ footer {
     .navbar-expand-lg .navbar-nav-scroll {
         display: contents;
     }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 0 2vw;
+    }
 }
 
 .navbar-brand img {
@@ -130,7 +134,9 @@ footer {
     justify-content: center;
 }
 
-
+.guide {
+    padding: 0 0 50px 0;
+}
 
 .img-textOne {
     width: 476px;
@@ -323,6 +329,7 @@ footer {
     font-size: 24px;
     line-height: 32px;
     text-shadow: 1px 1px 5px #000000;
+    margin-bottom: 10px;
 }
 
 .name input,
