@@ -146,7 +146,7 @@ footer {
     border: 3px solid #FF6626;
     border-radius: 15px;
     margin-left: 10px;
-    display: grid;
+    display: block;
     padding: 20px;
     margin-right: 20px;
 
@@ -328,7 +328,7 @@ footer {
 .content label {
     height: 32px;
     color: #FFFFFF;
-    font-size: 24px;
+    font-size: 1.2rem;
     line-height: 32px;
     text-shadow: 1px 1px 5px #000000;
     margin-bottom: 10px;
@@ -354,6 +354,31 @@ footer {
     border: none;
     resize: none;
     box-shadow: 1px 0px 5px #494949;
+}
+
+.mobile-blank {
+    display: block;
+}
+
+.send-btn {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.send-btn button {
+    background-color: #FF0056;
+    color: white;
+    border: none;
+    padding: 6px 60px;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.footer {
+    height: 30vh;
+    display: block;
+    background-color: white;
 }
 
 @media screen and (max-width: 1399px) {
@@ -409,7 +434,7 @@ footer {
         border: 3px solid #FF6626;
         border-radius: 15px;
         margin-left: 10px;
-        display: grid;
+        display: block;
         padding: 10px;
         margin-right: 5px;
     }
@@ -490,5 +515,8 @@ footer {
     .text-form label {
         font-size: 1.2rem;
         margin-top: 10px;
+    }
+    .mobile-blank {
+        display: block;
     }
 }
