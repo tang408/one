@@ -377,3 +377,118 @@ footer {
     }
     
 }
+
+@media screen and (max-width: 900px){
+    header {
+        height: auto;
+    }
+    .navbar-brand img {
+        height: 60px;
+    }
+    .news, .guide, .contact {
+        padding: 20px;
+        align-items: center;
+    }
+    .news img, .guide img, .contact img {
+        width: 35vw !important;
+    }
+    .pic-group {
+        display: grid;
+    }
+    .pic-text {
+        margin-bottom: 15px;
+    }
+    .ImgOne, .ImgTwo {
+        width: 50vw;
+        height: 35vw;
+    }
+    .img-textOne {
+        width: 43vw;    
+        height: 35vw;
+        background: #FFFFFF;
+        border: 3px solid #FF6626;
+        border-radius: 15px;
+        margin-left: 10px;
+        display: grid;
+        padding: 10px;
+        margin-right: 5px;
+    }
+    .fistNews-red {
+        width: 38vw;
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    .fistNews-gray {
+        width: 38vw;
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+    .guide-group {
+        margin-top: 50px;
+    }
+    .ImgThree {
+        left: 18vw !important;
+        width: 60vw;
+        height: 40vw;
+    }
+    .img-textTwo {
+        width: 70vw;
+        right: 18vw;
+        top: 30vw;
+        padding: 10px;
+        height: auto;
+        border: 2px solid black;
+    }
+    .content-black {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .content-red {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    .content-gray {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    .ImgFour {
+        margin-top: 8vw;
+        left: -18vw !important;
+        right: 12vw !important;
+        
+    }
+    .text-four {
+        left: 18vw;
+        top: 40vw;
+        padding: 10px;
+        height: auto;
+        border: 2px solid black;
+    }
+    .contact {
+        margin-top: 25vh;
+    }
+    .group {
+        display: block;
+    }
+    .text-shape {
+        width: 100%;
+        height: auto;
+        border: 2.5px solid #FF6626;
+        padding: 20px;
+    }
+    .shape-font {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .text-form{
+        display: block;
+        margin: 0;
+    }
+    .name input, .tel input, .email input, .content textarea {
+        width: 100%;
+    }
+    .text-form label {
+        font-size: 1.2rem;
+        margin-top: 10px;
+    }
+}
